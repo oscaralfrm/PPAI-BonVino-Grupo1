@@ -1,6 +1,7 @@
 <section align="center">
 
 ![Header](./images/github-ppai-bonvino-header.png)
+<hr>
 
 <h2><b>Personal Docente: </b></h2>
 <ul style="list-style-type: none;">
@@ -26,33 +27,28 @@
 
 <hr>
 
-![Banner](./GitHubImages/🤓 Prestamos_de_Libros 📚.png)
-
-</center>
+</section>
 
 <section align="justify">
 
-<br></br>
-La siguiente aplicación fue desarrollada como capítulo final del trayecto educativo del curso " IT Bootcamp POO Java | Ministerio de Trabajo <> Alkemy", en donde se planteó el diseño y
-desarrollo de una aplicación backend utilizando el lenguaje de programación Java, enfocándose en elementos del Paradigma Orientado a Objetos.
-
-Se pudo poner en práctica las siguientes habilidades:
-
-- <strong>Altas, Bajas y Consultas</strong> sobre una aplicación de Préstamos de Libros, en donde se solicitó modelar como mínimo dos clases para la resolución del ejercicio ("Libro"
-y "Usuario"). A través del Modelo de Dominio, utilizando como herramienta el Diagrama de Clases, se obtuvieron más clases aledañas (Préstamo, AsignaciónLibro, InventarioLibros).
-- Conceptos esenciales de la POO, y así como eventualmente algunas prácticas utilizando el Paradigma Funcional, para la resolución de búsquedas más rápidas a través del método stream().
-
-El mismo proyecto también formó parte de un proyecto solicitado para la obtención de la aprobación del curso, ahondando en la mejora continua de habilidades de análisis, diseño y modelado
-del dominio, profundizando el aprendizaje por competencias y personal.
+<div align="center">
+  
+  ![Banner](./images/🍷 BonVino🍾.png)
+  
+</div>
 
 
 <br></br>
+Información del Proyecto.
+<br></br>
+
+<hr>
 </section>
 
 <section align="center">
 
 
-![Stack](./GitHubImages/📘 Tecnologias_Usadas ✏️.png)
+![Stack](./images/⚙️_Tecnologías_Implementadas_🤓.png)
 
 <br></br>
 
@@ -63,24 +59,25 @@ del dominio, profundizando el aprendizaje por competencias y personal.
 <br></br>
 </section>
 
+<hr>
+
 <section align="center">
 
-![Comments](./GitHubImages/🏫 Comentarios_del_Desarrollo 👩🏾_🏫.png)
+![Comments](./images/👩🏻_💻_Comentarios_sobrelo_trabajado👨🏻_💻.png)
 <br></br>
 
 <div align="justify">
 
-El presente trabajo representó un paso adelante en mi carrera como profesional. Pude repasar y rever muchos de los contenidos que serán críticos para agilizar mi aprendizaje en el mundo del Backend de Aplicaciones, sobre todo en uno de mis lenguajes favoritos (Java).
-
-Especiales agradecimientos a la gente de 🦊 Alkemy 🚀 y al docente titular de la comisión por el desafío planteado. Espero el proyecto cumpla con sus espectativas de aprendizaje para lo visto en el curso.
+Información.
 
 <br></br>
 
 </div>
 <br></br>
 
+<hr>
 
-![Header](./GitHubImages/github-header-image.png)
+![Header](./images/github-ppai-bonvino-header.png)
 
 
 </section>
