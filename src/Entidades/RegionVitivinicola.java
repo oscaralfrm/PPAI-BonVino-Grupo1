@@ -8,16 +8,21 @@ public class RegionVitivinicola {
 
     private String nombre;
 
+    //Agrego atributo provincia por la relacion para la busqueda de datos
+    private Provincia provincia;
+
     //Constructores
 
     public RegionVitivinicola() {
     }
 
-    public RegionVitivinicola(String descipcion, String nombre) {
-        this.descipcion = descipcion;
+    public RegionVitivinicola(Provincia provincia, String nombre, String descipcion) {
+        this.provincia = provincia;
         this.nombre = nombre;
+        this.descipcion = descipcion;
     }
 
+    //getters and setters
     public String getDescipcion() {
         return descipcion;
     }
@@ -34,5 +39,11 @@ public class RegionVitivinicola {
         this.nombre = nombre;
     }
 
-    
+    public Provincia getProvincia() {
+        return provincia;
+    }
+
+    public void setProvincia(Provincia provincia) {
+        this.provincia = provincia;
+    }
 }

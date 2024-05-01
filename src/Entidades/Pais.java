@@ -34,5 +34,16 @@ public class Pais {
         this.provincias = provincias;
     }
 
+    public void agregarProvincia(Provincia provincia) {
 
+        this.provincias.add(provincia);
+        provincia.setPais(this);
+    }
+
+    public void eliminarProvincia(Provincia provincia) {
+
+        this.provincias.remove(provincia);
+        provincia.setPais(null);
+
+    }
 }
