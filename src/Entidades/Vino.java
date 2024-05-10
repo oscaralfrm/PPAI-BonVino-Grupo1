@@ -141,4 +141,17 @@ public class Vino {
         }
         return cumple;
     }
+
+    public float calcularPromedioReseñasSommelierPeriodo(Date fechaDesde, Date fechaHasta) {
+        float prom = 0;
+        float suma = 0;
+        if (!this.reseñas.isEmpty()) {
+            for (Reseña reseña : this.reseñas) {
+                suma = suma + (reseña.getPuntaje());
+            }
+            prom = suma / this.reseñas.size();
+            prom = Math.round(prom * 100) / 100;
+        }
+        return prom;
+    }
 }
