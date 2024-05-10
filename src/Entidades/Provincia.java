@@ -61,6 +61,7 @@ public class Provincia {
         this.pais = pais;
     }
 
+    //Métodos extras realización CU
     public String buscarNombrePais() {
         return this.pais.getNombre();
     }

@@ -82,6 +82,8 @@ public class Bodega {
         this.region = region;
     }
 
+    //Métodos extras realización CU
+
     public String buscarNombreRegion() {
         return this.region.getNombre();
     }

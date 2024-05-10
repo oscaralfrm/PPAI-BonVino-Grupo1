@@ -24,29 +24,36 @@ public class RegionVitivinicola {
 
     //getters and setters
     public String getDescipcion() {
+
         return descipcion;
     }
 
     public void setDescipcion(String descipcion) {
+
         this.descipcion = descipcion;
     }
 
     public String getNombre() {
+
         return nombre;
     }
 
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
 
     public Provincia getProvincia() {
+
         return provincia;
     }
 
     public void setProvincia(Provincia provincia) {
+
         this.provincia = provincia;
     }
 
+    //Métodos extras realización CU
     public String buscarNombrePais() {
         return this.provincia.buscarNombrePais();
     }
