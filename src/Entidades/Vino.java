@@ -2,6 +2,8 @@ package Entidades;
 
 import javax.swing.*;
 import java.time.Year;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Vino {
 
@@ -11,7 +13,7 @@ public class Vino {
     private String nombre;
     private String notaDeCataBodega;
     private double precioARS;
-    private Varietal varietal;
+    private List<Varietal> varietal;
     private Bodega bodega;
 
     //Métodos Constructores
@@ -19,7 +21,7 @@ public class Vino {
     public Vino() {
     }
 
-    public Vino(Year anada, ImageIcon imagenEtiqueta, String nombre, Varietal varietal,
+    public Vino(Year anada, ImageIcon imagenEtiqueta, String nombre, List<Varietal> varietal,
                 double precioARS, String notaDeCataBodega, Bodega bodega) {
         this.anada = anada;
         this.imagenEtiqueta = imagenEtiqueta;
@@ -73,11 +75,11 @@ public class Vino {
         this.precioARS = precioARS;
     }
 
-    public Varietal getVarietal() {
+    public List<Varietal> getVarietal() {
         return varietal;
     }
 
-    public void setVarietal(Varietal varietal) {
+    public void setVarietal(List<Varietal> varietal) {
         this.varietal = varietal;
     }
 
@@ -87,5 +89,26 @@ public class Vino {
 
     public void setBodega(Bodega bodega) {
         this.bodega = bodega;
+    }
+
+    //Métodos extras realización CU
+    public List<String> buscarDescripcionVarietales() {
+        List<String> descripciones = new ArrayList<>();
+        for (Varietal unVarietal : varietal) {
+            descripciones.add(unVarietal.getDescripcionVarietal());
+        };
+        return descripciones;
+    }
+
+    public String buscarNombreBodega() {
+        return this.bodega.getNombre();
+    }
+
+    public String buscarNombreRegion() {
+        return this.bodega.buscarNombreRegion();
+    }
+
+    public String buscarNombrePais() {
+        return this.bodega.buscarNombrePais();
     }
 }
