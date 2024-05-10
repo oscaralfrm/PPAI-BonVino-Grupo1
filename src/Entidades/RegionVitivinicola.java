@@ -46,4 +46,8 @@ public class RegionVitivinicola {
     public void setProvincia(Provincia provincia) {
         this.provincia = provincia;
     }
+
+    public String buscarNombrePais() {
+        return this.provincia.buscarNombrePais();
+    }
 }

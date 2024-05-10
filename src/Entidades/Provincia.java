@@ -60,4 +60,8 @@ public class Provincia {
     public void setPais(Pais pais) {
         this.pais = pais;
     }
+
+    public String buscarNombrePais() {
+        return this.pais.getNombre();
+    }
 }

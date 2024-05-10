@@ -81,4 +81,12 @@ public class Bodega {
     public void setRegion(RegionVitivinicola region) {
         this.region = region;
     }
+
+    public String buscarNombreRegion() {
+        return this.region.getNombre();
+    }
+
+    public String buscarNombrePais() {
+        return this.region.buscarNombrePais();
+    }
 }
