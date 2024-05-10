@@ -3,6 +3,7 @@ package Entidades;
 import javax.swing.*;
 import java.time.Year;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Vino {
@@ -111,7 +112,7 @@ public class Vino {
     //Métodos extras realización CU
     public List<String> buscarDescripcionVarietales() {
         List<String> descripciones = new ArrayList<>();
-        for (Varietal unVarietal : varietal) {
+        for (Varietal unVarietal : this.varietal) {
             descripciones.add(unVarietal.getDescripcionVarietal());
         };
         return descripciones;
@@ -127,5 +128,17 @@ public class Vino {
 
     public String buscarNombrePais() {
         return this.bodega.buscarNombrePais();
+    }
+
+    public Boolean tieneReseñasSommelierEnPeriodo(Date fechaDesde, Date fechaHasta) {
+        Boolean cumple = false;
+        for (Reseña reseña : this.reseñas) {
+            if (reseña.sosDeSommelier() && reseña.esFechaEnPeriodo(fechaDesde, fechaHasta)) {
+                cumple = true;
+                break;
+            }
+
+        }
+        return cumple;
     }
 }

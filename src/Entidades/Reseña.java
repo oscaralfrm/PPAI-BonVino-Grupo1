@@ -66,4 +66,17 @@ public class Reseña {
     public void setVino(Vino vino) {
         this.vino = vino;
     }
+
+    //Métodos extras realización CU
+    public Boolean esFechaEnPeriodo(Date fechaDesde, Date fechaHasta) {
+        Boolean estaEnPeriodo = false;
+        if (this.fechaReseña.after(fechaDesde) && this.fechaReseña.before(fechaHasta)) {
+            estaEnPeriodo = true;
+        }
+        return estaEnPeriodo;
+    }
+
+    public Boolean sosDeSommelier() {
+        return this.esPremium;
+    }
 }
