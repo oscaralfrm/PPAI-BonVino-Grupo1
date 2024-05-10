@@ -5,7 +5,7 @@ public class Varietal {
     // Atributos
 
     private String descripcion;
-    private double porcentajeComposicion;
+    private float porcentajeComposicion;
 
 
     // Métodos Constructores
@@ -13,7 +13,7 @@ public class Varietal {
     public Varietal() {
     }
 
-    public Varietal(String descripcion, double porcentajeComposicion) {
+    public Varietal(String descripcion, float porcentajeComposicion) {
         this.descripcion = descripcion;
         this.porcentajeComposicion = porcentajeComposicion;
     }
@@ -25,14 +25,17 @@ public class Varietal {
     }
 
     public void setDescripcionVarietal(String descripcion) {
+
         this.descripcion = descripcion;
     }
 
     public double mostrarPorcentaje() {
+
         return porcentajeComposicion;
     }
 
-    public void setPorcentaje(double porcentajeComposicion) {
+    public void setPorcentaje(float porcentajeComposicion) {
+
         this.porcentajeComposicion = porcentajeComposicion;
     }
 

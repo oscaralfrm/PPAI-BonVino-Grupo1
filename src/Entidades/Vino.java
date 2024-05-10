@@ -8,22 +8,23 @@ import java.util.List;
 public class Vino {
 
     //Atributos
-    private Year anada;
+    private Year añada;
     private ImageIcon imagenEtiqueta;
     private String nombre;
     private String notaDeCataBodega;
-    private double precioARS;
+    private float precioARS;
     private List<Varietal> varietal;
     private Bodega bodega;
+    private List<Reseña> reseñas;
 
     //Métodos Constructores
 
     public Vino() {
     }
 
-    public Vino(Year anada, ImageIcon imagenEtiqueta, String nombre, List<Varietal> varietal,
-                double precioARS, String notaDeCataBodega, Bodega bodega) {
-        this.anada = anada;
+    public Vino(Year añada, ImageIcon imagenEtiqueta, String nombre, List<Varietal> varietal,
+                float precioARS, String notaDeCataBodega, Bodega bodega) {
+        this.añada = añada;
         this.imagenEtiqueta = imagenEtiqueta;
         this.nombre = nombre;
         this.varietal = varietal;
@@ -35,12 +36,12 @@ public class Vino {
     //Getters and setters
 
 
-    public Year getAnada() {
-        return anada;
+    public Year getAñada() {
+        return añada;
     }
 
-    public void setAnada(Year anada) {
-        this.anada = anada;
+    public void setAñada(Year añada) {
+        this.añada = añada;
     }
 
     public ImageIcon getImagenEtiqueta() {
@@ -71,7 +72,7 @@ public class Vino {
         return precioARS;
     }
 
-    public void setPrecioARS(double precioARS) {
+    public void setPrecioARS(float precioARS) {
         this.precioARS = precioARS;
     }
 
@@ -89,6 +90,22 @@ public class Vino {
 
     public void setBodega(Bodega bodega) {
         this.bodega = bodega;
+    }
+
+    public List<Reseña> getReseñas() {
+        return reseñas;
+    }
+
+    public void setReseñas(List<Reseña> reseñas) {
+        this.reseñas = reseñas;
+    }
+
+    public void agregarReseña(Reseña reseña) {
+        this.reseñas.add(reseña);
+    }
+
+    public void eliminarReseña(Reseña reseña) {
+        this.reseñas.remove(reseña);
     }
 
     //Métodos extras realización CU
