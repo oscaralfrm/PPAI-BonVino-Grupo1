@@ -835,8 +835,8 @@
             <mxPoint x="-160" y="-464" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HThZiJOmX-hIbYLv3t4q-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;b&gt;Devuelve el vino (elemento actual) que responda al filtro como true&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-565" y="710" width="265" height="30" as="geometry" />
+        <mxCell id="HThZiJOmX-hIbYLv3t4q-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;b&gt;Pone el puntero en el vino (elemento actual) que responda al filtro como true&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-557" y="710" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HThZiJOmX-hIbYLv3t4q-26" value="&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;b&gt;Es un método que en código va a estar adentro de comprobarFiltro() (resuelve el filtro colaboración entre objetos&lt;/b&gt;&lt;/span&gt;&lt;b&gt;)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-860" y="770" width="265" height="30" as="geometry" />
