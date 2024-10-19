@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="4214" dy="2449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3347" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="--btbFv4Toh0HAnlBqte-47" value="Loop Para cada vino Sommelier en período&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;[Mientras hayan vinos sommeliers en periodo]&lt;/div&gt;" style="html=1;blockSpacing=1;whiteSpace=wrap;shape=mxgraph.sysml.package2;xSize=90;overflow=fill;fontSize=13.3;fontColor=#3a414a;align=left;spacing=0;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;lucidId=eAxuhJikFkLI;labelX=277.29;" parent="1" vertex="1">
+          <mxGeometry x="-1005" y="1620" width="1070" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="vnXuPheoSnRMCtvUsWmk-1" value="Loop Para cada Reseña de cada vino" style="html=1;blockSpacing=1;whiteSpace=wrap;shape=mxgraph.sysml.package2;xSize=90;overflow=fill;fontSize=13.3;fontColor=#3a414a;align=left;spacing=0;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;lucidId=eAxuhJikFkLI;labelX=277.29;" parent="1" vertex="1">
           <mxGeometry x="-669.06" y="1830" width="350" height="90" as="geometry" />
         </mxCell>
@@ -222,7 +225,7 @@
             <mxPoint x="-1347" y="2640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ku-wje5dmeUF3dkiyVUN-56" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=0;startArrow=none;endArrow=none;lucidId=eAxu3_9Iudyp;" parent="1" edge="1" source="O6tkLJI8rTXwkYXTK2pI-34">
+        <mxCell id="ku-wje5dmeUF3dkiyVUN-56" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=0;startArrow=none;endArrow=none;lucidId=eAxu3_9Iudyp;" parent="1" source="O6tkLJI8rTXwkYXTK2pI-34" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="-440" y="3490" as="targetPoint" />
@@ -355,16 +358,6 @@
         </mxCell>
         <mxCell id="--btbFv4Toh0HAnlBqte-41" value="&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;font color=&quot;#3a414a&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 0, 0);&quot;&gt;calcularPromedio&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#3a414a&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 0, 0);&quot;&gt;Sommelier&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;CalificacionReseñas()&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=center;spacing=3.8;verticalAlign=top;strokeColor=none;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=0;lucidId=eAxuZJ7Lw8HQ;" parent="1" vertex="1">
           <mxGeometry x="-770" y="1477" width="133" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="--btbFv4Toh0HAnlBqte-48" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;lucidId=eAxuwMsFahf4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ku-wje5dmeUF3dkiyVUN-22" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="-838" y="-454" as="sourcePoint" />
-            <mxPoint x="-850" y="4380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="--btbFv4Toh0HAnlBqte-47" value="Loop Para cada vino Sommelier en período&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;[Mientras hayan vinos sommeliers en periodo]&lt;/div&gt;" style="html=1;blockSpacing=1;whiteSpace=wrap;shape=mxgraph.sysml.package2;xSize=90;overflow=fill;fontSize=13.3;fontColor=#3a414a;align=left;spacing=0;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=12;fillColor=#ffffff;strokeWidth=0.8;lucidId=eAxuhJikFkLI;labelX=277.29;" parent="1" vertex="1">
-          <mxGeometry x="-1005" y="1620" width="1070" height="600" as="geometry" />
         </mxCell>
         <mxCell id="--btbFv4Toh0HAnlBqte-56" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#333333;strokeOpacity=100;strokeWidth=0.8;rounded=1;arcSize=10;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=1;lucidId=eAxuuN~Lr5RU;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -989,7 +982,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O6tkLJI8rTXwkYXTK2pI-37" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=0;startArrow=none;endArrow=none;lucidId=eAxu3_9Iudyp;" edge="1" parent="1" target="O6tkLJI8rTXwkYXTK2pI-34">
+        <mxCell id="O6tkLJI8rTXwkYXTK2pI-37" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=0;startArrow=none;endArrow=none;lucidId=eAxu3_9Iudyp;" parent="1" target="O6tkLJI8rTXwkYXTK2pI-34" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="-440" y="3490" as="targetPoint" />
@@ -997,7 +990,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O6tkLJI8rTXwkYXTK2pI-34" value="&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;b&gt;Como ya tenemos la lista de vinos filtradas, NO hace falta volver a filtrar las reseñas de los vinos...&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;&lt;b&gt;Directamente trabajamos sobre el cálculo del promedio.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-605" y="1482" width="265" height="30" as="geometry" />
+          <mxGeometry x="-570" y="1487" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="29wgc2Lpud5sfQ3daMAg-1" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;fontFamily=helvetica;strokeColor=#333333;strokeOpacity=100;dashed=1;fixDash=1;dashPattern=16 6;strokeWidth=0.8;rounded=0;startArrow=none;endArrow=none;lucidId=eAxu3_9Iudyp;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-843.39" y="3640" as="targetPoint" />
+            <mxPoint x="-840" y="-450" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
